@@ -1,0 +1,8 @@
+Django                
+django-browser-reload 
+django-htmx           
+djongo                
+# psycopg2-binary       2.9.5
+pymongo               
+pytz                  
+django-crispy-forms

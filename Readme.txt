@@ -1,0 +1,6 @@
+
+htmx
+mongodb
+django forms
+
+

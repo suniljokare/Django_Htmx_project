@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+{% block body %} 
+{% load static %}
+
+ <div id=aa class="container">
+    <div class="row">
+        <div class="col">
+            <img  src="{% static '/images/crm_pic.webp' %}" height="80%" width="80%" >
+        </div>
+        <div style="margin-top:100px" class="col">
+            
+            <h1>LET START JOURNEY</h1>
+            
+            <p>Coming Together is begining,Keeping together is Progress,Working together is a success</p>
+  
+   
+            <a hx-get="{% url 'crm:index' %}" 
+            hx-target="#content"
+            hx-trigger="load"
+            ><span  class="btn btn-outline-dark">Let's Begin
+            </span></a>
+        </div>
+    </div>
+ </div>
+
+{% endblock  %} 
